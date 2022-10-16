@@ -1,0 +1,24 @@
+{
+  "applications": ["StartSample"],
+  "changelogDate": "20221016130510",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "metals",
+  "fields": [
+    {
+      "fieldName": "elementCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "elementDescription",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Metals",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
