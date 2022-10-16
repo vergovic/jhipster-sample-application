@@ -39,4 +39,9 @@ export const EntityNavbarItems = [
     route: 'job-history',
     translationKey: 'global.menu.entities.jobHistory',
   },
+  {
+    name: 'Metals',
+    route: 'metals',
+    translationKey: 'global.menu.entities.metals',
+  },
 ];

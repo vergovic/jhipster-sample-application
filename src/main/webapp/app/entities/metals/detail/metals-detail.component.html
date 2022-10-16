@@ -1,0 +1,36 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="metals">
+      <h2 data-cy="metalsDetailsHeading"><span jhiTranslate="startSampleApp.metals.detail.title">Metals</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ metals.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="startSampleApp.metals.elementCode">Element Code</span></dt>
+        <dd>
+          <span>{{ metals.elementCode }}</span>
+        </dd>
+        <dt><span jhiTranslate="startSampleApp.metals.elementDescription">Element Description</span></dt>
+        <dd>
+          <span>{{ metals.elementDescription }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/metals', metals.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

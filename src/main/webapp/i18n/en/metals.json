@@ -1,0 +1,25 @@
+{
+  "startSampleApp": {
+    "metals": {
+      "home": {
+        "title": "Metals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Metals",
+        "createOrEditLabel": "Create or edit a Metals",
+        "notFound": "No Metals found"
+      },
+      "created": "A new Metals is created with identifier {{ param }}",
+      "updated": "A Metals is updated with identifier {{ param }}",
+      "deleted": "A Metals is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Metals {{ id }}?"
+      },
+      "detail": {
+        "title": "Metals"
+      },
+      "id": "ID",
+      "elementCode": "Element Code",
+      "elementDescription": "Element Description"
+    }
+  }
+}
