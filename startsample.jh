@@ -10,7 +10,11 @@ application {
   entities *
 }
 
+entity Metals {
+ elementCode String
+ elementDescription String
 
+}
 entity Region {
 	regionName String
 }
