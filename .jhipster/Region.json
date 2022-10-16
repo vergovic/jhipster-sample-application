@@ -1,0 +1,20 @@
+{
+  "applications": ["StartSample"],
+  "changelogDate": "20221016123652",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "region",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Region",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
